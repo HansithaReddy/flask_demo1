@@ -5,6 +5,6 @@ def home():
     return render_template("index.html")
 @app.route("//home")
 def index():
-    return "Index Page"
+    return "Welcome"
 if __name__=="__main__":
     app.run(debug=True)
